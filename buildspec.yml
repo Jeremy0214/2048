@@ -1,4 +1,3 @@
-cat > buildspec.yml << 'BUILDSPEC'
 version: 0.2
 env:
   variables:
@@ -24,4 +23,3 @@ phases:
 artifacts:
   files:
     - imagedefinitions.json
-BUILDSPEC
